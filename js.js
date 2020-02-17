@@ -165,10 +165,6 @@ const deleteContr = (i) => {
 
     localStorage.mis_peliculas = JSON.stringify(mis_peliculas);
     indexContr();
-
-
-    // Completar:  controlador que actualiza el modelo borrando la película seleccionada
-    // Genera diálogo de confirmación: botón Aceptar devuelve true, Cancel false
 };
 
 const resetContr = () => {
